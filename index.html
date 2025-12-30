@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Alibaba Resource Type Quick Query</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>资源类型速查</h1>
+      <div class="controls">
+        <input id="q" placeholder="输入资源类型或关键字，比如 ECS::Instance" autofocus />
+        <label><input id="fuzzy" type="checkbox" checked /> 模糊匹配</label>
+      </div>
+      <div id="count" class="count"></div>
+      <ul id="results" class="results"></ul>
+      <footer>
+        <small>从仓库根的 <strong>a.json</strong> 加载资源类型。可将此仓库开启 GitHub Pages 发布为静态速查页面。</small>
+      </footer>
+    </div>
+    <script src="static/app.js"></script>
+  </body>
+</html>

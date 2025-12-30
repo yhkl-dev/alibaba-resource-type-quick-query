@@ -1,0 +1,899 @@
+{
+  "ResourceTypes": [
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ACK::Cluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ADB::DBCluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ADB::DBClusterLakeVersion",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ALB::Listener",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ALB::LoadBalancer",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ALB::ServerGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::APIG::Gateway",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::APIG::HttpApi",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::APIG::Service",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ARMS::GrafanaWorkspace",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ARMS::Prometheus",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ARMS::TraceApp",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::AckOne::Cluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ActionTrail::Trail",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::AliKafka::ConsumerGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::AliKafka::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::AliKafka::Topic",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Alidns::DnsGtmInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Alidns::Domain",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Alidns::GtmInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ApiGateway::Api",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ApiGateway::App",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ApiGateway::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::BPStudio::Application",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Bastionhost::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CBWP::CommonBandwidthPackage",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CDN::Domain",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CEN::CenBandwidthPackage",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CEN::CenInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CEN::Flowlog",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CEN::TransitRouter",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CEN::TransitRouterVbrAttachment",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CEN::TransitRouterVpcAttachment",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CEN::TransitRouterVpnAttachment",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CR::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CR::Namespace",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CR::Repository",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ClickHouse::DBCluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ClickHouse::EnterpriseDBCluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CloudFirewall::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CloudSSO::Group",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::CloudStorageGateway::Gateway",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DBS::BackupPlan",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DCDN::Domain",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DCDN::IpaDomain",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DRDS::DBInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DRDS::PolarDBXInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DTS::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DataHub::Project",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DataV::Workspace",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DataWorks::DwResourceGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DataWorks::Project",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DdosBgp::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::DdosCoo::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Domain::Domain",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::EAIS::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::EBS::DedicatedBlockStorageCluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::EBS::DiskReplicaGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::EBS::DiskReplicaPair",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECI::ContainerGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECI::ImageCache",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECP::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::AutoSnapshotPolicy",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::CapacityReservation",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::DedicatedHost",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::Disk",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::ElasticityAssurance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::Image",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::KeyPair",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::NetworkInterface",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::SecurityGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ECS::Snapshot",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::EIP::EipAddress",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ENS::Disk",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ENS::Eip",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ENS::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ENS::Network",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ENS::VSwitch",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ESA::Site",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ESS::ScalingGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Eflo::Cluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Eflo::HyperNode",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Eflo::Node",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Ehpc::Cluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Eipanycast::AnycastEipAddress",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Elasticsearch::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Elasticsearch::Logstash",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::EmrServerlessSpark::Workspace",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ExpressConnect::PhysicalConnection",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ExpressConnect::VirtualBorderRouter",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ExpressConnectRouter::ExpressConnectRouter",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::FC::Service",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::GPDB::DBInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Ga::Accelerator",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Ga::BandwidthPackage",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::GraphDatabase::DbInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::HBR::HanaInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::HBR::Vault",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::HBase::Cluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Hologram::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::KMS::Key",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Lindorm::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Live::Domain",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::MSE::Cluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::MSE::Gateway",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::MaxCompute::Project",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::MessageService::Queue",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::MessageService::Topic",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::MongoDB::DBInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::NAS::FileSystem",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::NAT::NatGateway",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::NLB::Listener",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::NLB::LoadBalancer",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::NLB::ServerGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::OOS::Application",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::OSS::Bucket",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::OTS::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::OceanBase::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Ons::Group",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Ons::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Ons::Topic",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::OpenSearch::AppGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::PAI::Service",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::PAIWorkspace::Workspace",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::PolarDB::DBCluster",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::PrivateLink::VpcEndpoint",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::PrivateLink::VpcEndpointService",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::PrivateZone::Zone",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RAM::Group",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RAM::Policy",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RAM::Role",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RAM::User",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RDS::Custom",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RDS::DBInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ROS::Stack",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ROS::StackGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RTC::Application",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RealtimeCompute::VvpInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::Redis::DBInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ResourceManager::Account",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ResourceManager::Folder",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ResourceManager::ResourceDirectory",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RocketMQ::ConsumerGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RocketMQ::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::RocketMQ::Topic",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SCDN::Domain",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SDDP::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SLB::AccessControlList",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SLB::CACertificate",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SLB::LoadBalancer",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SLB::ServerCertificate",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SLB::VServerGroup",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SLS::LogStore",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SLS::Project",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SMS::Template",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SSLCertificatesService::Certificate",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SWAS::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SearchEngine::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::SelectDB::DBInstance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::TSDB::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::ThreatDetection::Instance",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VOD::Domain",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPC::Ipv4Gateway",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPC::Ipv6Address",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPC::Ipv6Gateway",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPC::NetworkAcl",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPC::PeerConnection",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPC::RouteTable",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPC::VPC",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPC::VSwitch",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPN::CustomerGateway",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPN::IpsecServer",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPN::SslVpnClientCert",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPN::SslVpnServer",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPN::VpnAttachment",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPN::VpnConnection",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::VPN::VpnGateway",
+      "Urls": {}
+    },
+    {
+      "CodeMapping": {},
+      "ResourceType": "ACS::WAFV3::DefenseResource",
+      "Urls": {}
+    }
+  ]
+}

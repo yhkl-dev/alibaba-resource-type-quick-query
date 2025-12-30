@@ -1,0 +1,14 @@
+:root{--bg:#0f1720;--card:#0b1220;--text:#e6eef8;--muted:#9fb0c8;--accent:#60a5fa}
+body{font-family: system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; background:linear-gradient(180deg,#072030, #061826); color:var(--text); margin:0; min-height:100vh}
+.container{max-width:900px;margin:36px auto;padding:22px;background:rgba(255,255,255,0.02);border-radius:10px;box-shadow:0 6px 24px rgba(2,6,23,0.6)}
+h1{margin:0 0 12px 0;font-size:20px}
+.controls{display:flex;gap:12px;align-items:center;margin-bottom:10px}
+input[type=text],#q{flex:1;padding:10px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--text)}
+label{color:var(--muted);font-size:14px}
+.count{color:var(--muted);margin-bottom:8px}
+.results{list-style:none;padding:0;margin:0}
+.results li{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-bottom:1px solid rgba(255,255,255,0.02)}
+.results .res{font-family:monospace; color:var(--text)}
+.results .hl{background:var(--accent);color:#022; padding:2px 4px;border-radius:4px}
+.copy{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);padding:6px 8px;border-radius:6px;cursor:pointer}
+footer{margin-top:12px;color:var(--muted);font-size:13px}
