@@ -43,13 +43,3 @@ To preview locally:
 python3 -m http.server 8000
 # then open http://127.0.0.1:8000 in your browser
 ```
-
-To publish with GitHub Pages:
-
-1. Commit and push this repository to GitHub.
-2. In the repository settings -> Pages, set the source to the `main` branch (or your branch) and the root `/` directory. Save.
-3. The site will be available at `https://<your-username>.github.io/<repo>/` after a few minutes.
-
-Notes:
-- GitHub Pages serves static files; `a.json` must be in the repo root (it already is) so the page can fetch it.
-- If you prefer a custom path, ensure the fetch URL in `static/app.js` matches the hosted location.
